@@ -1,0 +1,7 @@
+---
+const {class: className, id: id} = Astro.props
+---
+
+<article class=`${className} bg-[var(--card-bg-color)] shadow-sm rounded-sm h-[150px] w-full max-w-[340px]` id={id}>
+  <slot />
+</article>

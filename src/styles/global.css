@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900');
+
+html
+{
+    --body-bg-color: #191972;
+    --primary-graphics-color: #36dede;
+    --card-bg-color: #5555e4;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
